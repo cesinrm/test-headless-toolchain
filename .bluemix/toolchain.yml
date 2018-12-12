@@ -15,6 +15,7 @@ repo:
     repo_url: "{{#zip_url}}{{zip_url}}{{/zip_url}}{{^zip_url}}{{repository}}{{/zip_url}}"
     repo_name: "{{toolchain.name}}"
     type: clone
+    owner_id: "{{owner_id}}"
     has_issues: true
     enable_traceability: true
 
